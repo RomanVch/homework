@@ -1,0 +1,17 @@
+
+.block__filter{
+    width: 200px;
+    margin: 0px;
+display: flex;
+    justify-content: space-around;
+margin-left: 350px;
+
+}
+.filer__button{
+    margin-top: 10px;
+}
+.block__butoon{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
