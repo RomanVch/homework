@@ -1,0 +1,134 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+
+button:focus,
+a:focus {
+    outline: 1px dotted rgba(230, 211, 186, 0.4);
+    outline-offset: 1px;
+}
+button::-moz-focus-inner,
+a::-moz-focus-inner {
+    border: 2;
+}
+
+.menu {
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    padding: 1em 0;
+    display: flex;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+}
+
+.menu-line {
+    height: 2px;
+    background-color: #e6d3ba;
+    position: absolute;
+    right: 2em;
+    left: 2em;
+    transform: translateX(-120%);
+    transition: transform 600ms ease-in-out;
+}
+.is-visible .menu-line {
+    transform: translateX(0);
+    transition: transform 600ms ease-in-out 300ms;
+}
+
+.menu-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu-logo {
+    width: 120px;
+    height: 90px;
+    background-color: #e6d3ba;
+    box-shadow: inset 0 0 0 10px #0c1621;
+    opacity: 0;
+    transition: opacity 300ms 500ms, transform 300ms ease-in-out 600ms;
+    transform: translateY(-40px);
+}
+.is-visible .menu-logo {
+    transition: opacity 300ms 100ms, transform 300ms ease-in-out;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.menu-nav {
+    display: flex;
+    margin-left: auto;
+    opacity: 0;
+    transition: opacity 300ms 500ms, transform 300ms ease-in-out 600ms;
+    transform: translateY(-40px);
+}
+.is-visible .menu-nav {
+    transition: opacity 300ms 400ms, transform 300ms ease-in-out 300ms;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.menu-nav-item {
+    color: #181715;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #b8b5b5;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: color 200ms;
+    font-weight: bold;
+}
+.menu-nav-item + .menu-nav-item {
+    margin-left: 2em;
+}
+.menu-nav-item:hover {
+    color: #b23135;
+}
+
+.content {
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    padding: 1em 2em;
+    display: flex;
+}
+
+.content-box {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-text {
+    color: #e6d3ba;
+}
+
+.content-btn {
+    background-color: transparent;
+    border: 0;
+    color: #e6d3ba;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 1em;
+    box-shadow: inset 0 0 0 4px #b23135;
+    transition: background-color 300ms;
+}
+.content-btn:hover {
+    background-color: #b23135;
+}
+.content-btn:active {
+    background-color: rgba(178, 49, 53, 0.7);
+}
