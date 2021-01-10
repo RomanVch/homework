@@ -3,9 +3,10 @@ import React from "react";
 function Error404() {
     return (
         <div>
-            <div>404</div>
-            <div>Page not found!</div>
-            <div>—ฅ/ᐠ.̫ .ᐟ\ฅ—</div>
+            <div className={"fof__background"}></div>
+            <div className={"fof__fof"}>404</div>
+            <div className={"fof__not"}>Page not found!</div>
+            <div className={"fof__not"}>—ฅ/ᐠ.̫ .ᐟ\ฅ—</div>
         </div>
     );
 }
