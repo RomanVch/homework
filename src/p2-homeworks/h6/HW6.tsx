@@ -4,15 +4,18 @@ import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 import {restoreState, saveState} from "./localStorage/localStorage";
 
 function HW6() {
-    const [value, setValue] = useState<string>("");
+    const state: any = restoreState<any>("editable-span-value", "");
+    const [value, setValue] = useState<string>(state);
 
     const save = () => {
         saveState<string>("editable-span-value", value);
     };
     const restore = () => {
-        // setValue();
+        setValue("")
+        saveState<string>("editable-span-value", "");
     };
 
+    console.log(state)
     return (
         <div>
             <hr/>

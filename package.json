@@ -1,5 +1,6 @@
 {
   "name": "simple-react-homeworks",
+  "homepage": "https://romanvch.github.io/homework",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +20,6 @@
     "react-scripts": "3.4.1",
     "typescript": "~3.7.2"
   },
-  "homepage": "https://romanvch.github.io/homework",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
