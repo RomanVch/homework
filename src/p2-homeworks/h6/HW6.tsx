@@ -3,16 +3,24 @@ import SuperEditableSpan from "./common/c4-SuperEditableSpan/SuperEditableSpan";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 import {restoreState, saveState} from "./localStorage/localStorage";
 
+type stateType= string | (() => string)
+
+type restoreStateType= {
+
+    "editable-span-value":string
+
+}
+
+
 function HW6() {
-    const state: any = restoreState<any>("editable-span-value", "");
+    const state: stateType = restoreState<string>("editable-span-value", "");
     const [value, setValue] = useState<string>(state);
 
     const save = () => {
         saveState<string>("editable-span-value", value);
     };
     const restore = () => {
-        setValue("")
-        saveState<string>("editable-span-value", "");
+        setValue(state)
     };
 
     console.log(state)
