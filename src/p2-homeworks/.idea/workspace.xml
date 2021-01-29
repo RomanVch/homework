@@ -20,16 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe744aae-ac63-48d7-92ae-93de7cfe116e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/h7/HW7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h1.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/h2.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/h3.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/h4.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/h5/pages/Junior.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h6/HW6.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/h6/HW6.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h7/HW7.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/h7/HW7.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h7/common/c5-SuperSelect/SuperSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/h7/common/c5-SuperSelect/SuperSelect.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h7/common/c6-SuperRadio/SuperRadio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/h7/common/c6-SuperRadio/SuperRadio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611215692203</updated>
-      <workItem from="1611215694222" duration="9154000" />
+      <workItem from="1611215694222" duration="10369000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,7 @@
 import React from 'react';
 import {homeWorkReducer} from "../homeWorkReducer";
-
+const SORT="sort"
+const CHECK="check"
 let initialState: any[];
 
 beforeEach(() => {
@@ -15,18 +16,25 @@ beforeEach(() => {
 });
 
 test("sort name up", () => {
-    const newState = homeWorkReducer(initialState, {type: "sort", payload: "up"});
+    const newState = homeWorkReducer(initialState, {type: SORT, payload: "up"});
 
     console.log(newState);
-    // expect(...).toBe(...);
+    expect(newState[0].name).toBe("Александр");
+    expect(newState[newState.length-1].name).toBe("Кот");
+
 });
 test("sort name down", () => {
-    const newState = homeWorkReducer(initialState, {type: "sort", payload: "down"});
-
-
+    const newState = homeWorkReducer(initialState, {type: SORT, payload: "down"})
+    console.log(newState);
+    expect(newState[0].name).toBe("Кот");
+    expect(newState[newState.length-1].name).toBe("Александр");
 });
 test("check age 18", () => {
-    const newState = homeWorkReducer(initialState, {type: "check", payload: 18});
-
+    const newState = homeWorkReducer(initialState, {type: CHECK, payload: 18});
+    console.log(newState);
+    for (let i = 0; newState.length>i;i++){
+        expect(newState[i].age).toBeGreaterThan(17);
+    }
 
 });
+

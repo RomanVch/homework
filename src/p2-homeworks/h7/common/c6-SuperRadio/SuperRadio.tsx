@@ -18,12 +18,11 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
     let [checked,setCheckes] = useState(true)
 
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
-        debugger
         setCheckes(e.currentTarget.checked)
     }
 
 
-    const mappedOptions: any[] = options ? options.map((o, i) => ( // map options with key
+    const mappedOptions: any[] = options ? options.map((o, i) => (
         <label className={"control" + " " + "control--radio"} key={name + "-" + i}>
             <input
                 type={"radio"} name = {name} checked={checked} value={value} onChange={onChangeCallback}

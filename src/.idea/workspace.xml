@@ -20,13 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68293511-12ec-423f-97ab-497b122e0ce6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/p2-homeworks/h6/common/c4-SuperEditableSpan/SuperEditableSpan.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p2-homeworks/h5/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/p2-homeworks/h5/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p2-homeworks/h5/pages/PreJunior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/p2-homeworks/h5/pages/PreJunior.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p2-homeworks/h6/HW6.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/p2-homeworks/h6/HW6.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p2-homeworks/h6/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/p2-homeworks/h6/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2-homeworks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/p2-homeworks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2-homeworks/h5/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/p2-homeworks/h5/pages/Junior.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2-homeworks/h7/HW7.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/p2-homeworks/h7/HW7.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2-homeworks/h8/HW8.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/p2-homeworks/h8/HW8.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2-homeworks/h8/bll/homeWorkReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/p2-homeworks/h8/bll/homeWorkReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2-homeworks/h8/bll/tests/homeWorkReducer.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/p2-homeworks/h8/bll/tests/homeWorkReducer.test.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +70,8 @@
       <workItem from="1607433063576" duration="6978000" />
       <workItem from="1610199316423" duration="8605000" />
       <workItem from="1610782494308" duration="3171000" />
+      <workItem from="1611394235776" duration="502000" />
+      <workItem from="1611904517365" duration="2021000" />
     </task>
     <servers />
   </component>
@@ -85,11 +88,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="987" y="433" width="585" height="534" key="find.popup" timestamp="1610782708174">
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1611904912111">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="987" y="433" width="585" height="534" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1610782708174" />
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1611904912111" />
+    <state x="1008" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611905964359">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1008" y="612" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1611905964359" />
+    <state x="987" y="433" width="585" height="534" key="find.popup" timestamp="1611394391638">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="987" y="433" width="585" height="534" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1611394391638" />
   </component>
 </project>
