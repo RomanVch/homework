@@ -1,0 +1,12 @@
+.timerBlock{
+    display: flex;
+    font-family: Airport;
+font-size: 25px;
+    font-weight: bold;
+
+}
+
+.dataBlock {
+    margin-left: 50px;
+}
+

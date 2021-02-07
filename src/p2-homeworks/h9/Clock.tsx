@@ -1,34 +1,72 @@
 import React, {useState} from "react";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
+import s from "./Clock.module.css"
 
 function Clock() {
-    const [timerId, setTimerId] = useState<number>(0);
-    const [date, setDate] = useState<Date>();
+    const [timerId, setTimerId] = useState(0);
+    const [date, setDate] = useState<string>();
     const [show, setShow] = useState<boolean>(false);
+    const [stopTimer,setStopTimer]=useState("")
 
     const stop = () => {
-        // stop
+
+        let date = new Date(); /* создаем объект класса Date() */
+/*        let hour:any = date.getHours();
+        let min:any = date.getMinutes();
+        let sec:any = date.getSeconds();*/
+        // let Time = hour + " : " + min + " : " + sec;
+        let Time = date.toLocaleTimeString('ru')
+        clearInterval(timerId)
+        // setStopTimer("2222222222");
+
     }
     const start = () => {
-        stop();
+
         const id: number = window.setInterval(() => {
-            // setDate
+            setStopTimer(currentTime());
         }, 1000);
-        setTimerId(id);
+        setTimerId(id)
     }
 
     const onMouseEnter = () => {
-        // show
+        let today: any = new Date();
+        const dd = String(today.getDate()).padStart(2, '0');
+        const mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        let yyyy = today.getFullYear();
+        yyyy = yyyy.toString().substr(-2);
+        today = dd + '.' + mm + '.' + yyyy;
+        setDate(today)
+        setShow(true)
     };
     const onMouseLeave = () => {
-        // close
+        setShow(false)
     };
+    function updateTime(k:number) {
+        if (k < 10) {
+            return "0" + k;
+        } else {
+            return k;
+        }
+    }
+    function currentTime() {
+        let date = new Date(); /* создаем объект класса Date() */
+        let hour:any = date.getHours();
+        let min:any = date.getMinutes();
+        let sec:any = date.getSeconds();
+        hour = updateTime(hour);
+        min = updateTime(min);
+        sec = updateTime(sec);
+        let Time = hour + " : " + min + " : " + sec ; /* adding time to the div */
+        return Time
+    }
 
-    const stringTime = "Time"; // fix with date
-    const stringDate = "Date"; // fix with date
+
+    const stringTime = stopTimer; // fix with date
+    const stringDate = date; // fix with date
 
     return (
         <div>
+            <div className={s.timerBlock}>
             <div
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}
@@ -37,11 +75,12 @@ function Clock() {
             </div>
 
             {show && (
-                <div>
-                    {stringDate}
+                <div className={s.dataBlock}>
+                    {
+                        "/" + stringDate}
                 </div>
             )}
-
+            </div>
             <SuperButton onClick={start}>start</SuperButton>
             <SuperButton onClick={stop}>stop</SuperButton>
 
