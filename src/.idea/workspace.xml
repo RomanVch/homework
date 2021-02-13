@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68293511-12ec-423f-97ab-497b122e0ce6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/p2-homeworks/h9/Clock.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p2-homeworks/h5/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/p2-homeworks/h5/pages/Junior.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p2-homeworks/h9/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/p2-homeworks/h9/Clock.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="68293511-12ec-423f-97ab-497b122e0ce6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +65,7 @@
       <workItem from="1611394235776" duration="502000" />
       <workItem from="1611904517365" duration="2021000" />
       <workItem from="1612510594233" duration="12911000" />
-      <workItem from="1612705823010" duration="3257000" />
+      <workItem from="1612705823010" duration="3439000" />
     </task>
     <servers />
   </component>

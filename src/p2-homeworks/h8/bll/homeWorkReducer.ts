@@ -5,7 +5,6 @@ export const homeWorkReducer = (state: stateType, action: actionType):stateType 
     switch (action.type) {
         case "sort": {
             if (action.payload === "up") {
-                debugger
                 return stateCopy.sort((a: any, b: any) => {
                         if(a.name<=b.name){
                             return -1

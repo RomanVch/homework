@@ -28,15 +28,12 @@ function HW8() {
     }
     const sortDown= () =>{
         const newState = homeWorkReducer(initialPeople, {type: SORT, payload: "down"});
-        console.log(newState)
-        debugger
         setPeople(newState)
     }
     const sortAge = () =>{
         const newState = homeWorkReducer(initialPeople, {type: CHECK, payload: 18});
         setPeople(newState)
     }
-    debugger
     return (
         <div>
             <hr/>
